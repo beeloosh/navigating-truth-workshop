@@ -1,0 +1,264 @@
+# Directory to store the files
+dir_name = '/mnt/data/navigating-truth-workshop'
+os.makedirs(dir_name, exist_ok=True)
+
+# Create the files
+files = {
+    'index.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigating Truth: AI. Challenges and Solutions for Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Date of the Event:</h2>
+        <ul>
+            <li>13.06.2024, 18:00</li>
+            <li>27.06.2024, 18:00</li>
+        </ul>
+        <h2>Brief Description:</h2>
+        <p>As AI technology advances, it presents a double-edged sword in the realm of information — it can be harnessed to fight disinformation while also capable of generating misleading content. This Learning Group delves into the complex relation between AI, education, and disinformation. We will focus on strategies to foster critical thinking skills in young people in the digital age.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>''',
+    'learning-objectives.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Objectives</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Learning Objectives:</h2>
+        <ul>
+            <li>Understand AI’s dual role in combating and perpetuating disinformation, including ethical considerations.</li>
+            <li>Develop strategies to promote critical thinking and digital literacy.</li>
+            <li>Examine responsible AI use and ethical considerations in education and information sharing.</li>
+            <li>Identify strategies to build digital resilience and media literacy.</li>
+        </ul>
+        <h2>Key Takeaways:</h2>
+        <ul>
+            <li>Gain actionable insights for using AI to combat disinformation effectively applicable to your area of work.</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>''',
+    'workshop-leader.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Leader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Workshop Leader:</h2>
+        <p>Agnieszka Bilska</p>
+        <p>Add a short bio and a photo of Agnieszka Bilska.</p>
+        <p>Provide a link to her profile if available.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>''',
+    'target-audience.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Audience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Target Audience:</h2>
+        <p>Describe who the workshop is for.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>''',
+    'workshop-plan.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Plan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Workshop Plan:</h2>
+        <p>Include details of the pre-work, first meeting, and any other sessions.</p>
+        <p>Embed links to relevant resources, videos, and whitepapers as mentioned in the document.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>''',
+    'resources.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Resources:</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=ojjn9T_fuUw">YouTube Video</a></li>
+            <li><a href="https://cordis.europa.eu/article/id/450241-unravelling-the-deepfake">Whitepaper</a></li>
+            <li><a href="https://chatgpt.com/">ChatGPT</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>''',
+    'contact.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact:</h2>
+        <p>Provide contact information for participants to reach out with questions.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>''',
+    'post-workshop-support.html': '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post &#8203;:citation[oaicite:0]{index=0}&#8203;
