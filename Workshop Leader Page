@@ -16,3 +16,20 @@
                 <li><a href="workshop-leader.html">Workshop Leader</a></li>
                 <li><a href="target-audience.html">Target Audience</a></li>
                 <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Workshop Leader:</h2>
+        <p>Agnieszka Bilska</p>
+        <p>Add a short bio and a photo of Agnieszka Bilska.</p>
+        <p>Provide a link to her profile if available.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>
