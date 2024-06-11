@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Navigating Truth: AI. Challenges and Solutions for Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-objectives.html">Learning Objectives</a></li>
+                <li><a href="workshop-leader.html">Workshop Leader</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="workshop-plan.html">Workshop Plan</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Resources:</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=ojjn9T_fuUw">YouTube Video</a></li>
+            <li><a href="https://cordis.europa.eu/article/id/450241-unravelling-the-deepfake">Whitepaper</a></li>
+            <li><a href="https://chatgpt.com/">ChatGPT</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Navigating Truth Workshop</p>
+    </footer>
+</body>
+</html>
