@@ -17,6 +17,7 @@
         <li><a href="target-audience.html">Target Audience</a></li>
         <li><a href="workshop-plan.html">Workshop Plan</a></li>
         <li><a href="resources.html">Resources</a></li>
+<a href="path/to/yourfile.pdf" target="_blank">Download PDF</a>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="post-workshop-support.html">Post-Workshop Support</a></li>
             </ul>
